@@ -6,8 +6,8 @@ Charakterystyka systemu operacyjnego
 
 | Charakterystyka | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| nazwa      | linux | ubuntu 14.04 LTS |
-| program (parametry sieci)      | |  |
+| nazwa      | linux | centos 7 |
+| program (parametry sieci)      | niewiem |  |
 
 
 Konfiguracja połączenia sieciowego
