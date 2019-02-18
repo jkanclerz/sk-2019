@@ -6,7 +6,7 @@ Charakterystyka systemu operacyjnego
 
 | Charakterystyka | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| nazwa      | linux | centos 7 |
+| nazwa      | linux | lubuntu |
 | program (parametry sieci)      | niewiem |  |
 
 
