@@ -18,8 +18,8 @@ Konfiguracja połączenia sieciowego
 | Adres IP      | XX.XX.XX.XX | przydzielony przez DHCP |
 | Maska podsieci      |  |  |
 | Brama      |  |  |
-| DNS 1      |  |  |
-| DNS 2      |  |  |
+| DNS 1      | 1.1.1.1 |  |
+| DNS 2      | 1.0.0.1 |  |
 
 Schemat sieci
 -------------
