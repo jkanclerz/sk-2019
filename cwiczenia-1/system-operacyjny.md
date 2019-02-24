@@ -18,8 +18,8 @@ Konfiguracja połączenia sieciowego
 | Adres IP      | 127.0.0.1 | przydzielony przez DHCP |
 | Maska podsieci| 255.255.255.0  |  |
 | Brama      | 10.0.2.2 |  |
-| DNS 1      | 1.1.1.1 |  |
-| DNS 2      | 1.0.0.1 |  |
+| DNS 1      | 10.8.8.1 |  |
+| DNS 2      | 1.1.1.1 |  |
 
 Schemat sieci
 -------------
