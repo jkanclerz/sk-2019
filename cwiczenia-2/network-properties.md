@@ -74,7 +74,7 @@ Polecenie
 Efekt
 ```
 ```
-
+.
 Warto wiedzieć
 --------------
 
