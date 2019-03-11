@@ -1,4 +1,4 @@
-Ustawianie parametrów sieci ip
+Ustawianie parametrów sieci ip,,,
 ------------------------------
 
 * stan interfejsu
