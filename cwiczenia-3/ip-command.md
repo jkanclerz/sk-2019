@@ -1,4 +1,4 @@
-Ustawianie parametrów sieci ip
+Ustawianie parametrów sieci ip0
 ------------------------------
 
 * stan interfejsu
@@ -33,7 +33,7 @@ ip
 |   ``maddr``   |  | |
 |   ``neigh``   |  | |
 |   ``help``    |  | |
-
+ut
 Zadanie
 ------------
 
