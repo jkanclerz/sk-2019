@@ -29,6 +29,8 @@ ip
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
 |   ``link``    |                               |  |
+|               |   ``ip link set enp0s3 down`` | wyłącza interfejs enp0s3                          |
+|               |   ``ip link set enp0s3 up``   | włącza interfejs enp0s3                           |
 |   ``route``   |  | |
 |   ``maddr``   |  | |
 |   ``neigh``   |  | |
