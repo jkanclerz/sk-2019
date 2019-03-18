@@ -30,7 +30,7 @@ Zadanie
    * Patrz ``utrwalanie statycznej konfiguracji cwiczenia 2``
    * zwróć uwagę na różnice pomiędzy dydtrybucjami systemu
 3. Zainstaluj, uruchom i przetestuj działanie aplikacji ``HTTP_CHAT``
-  * aplikacja dostępna w serwisie github ``https://github.com/jkanclerz/http-chat``
+   * aplikacja dostępna w serwisie github ``https://github.com/jkanclerz/http-chat``
 
 Zadanie do domu
 ---------------
