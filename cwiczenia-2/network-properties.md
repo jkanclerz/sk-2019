@@ -12,12 +12,12 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | | |
-| MASKA  | | |
+| IP - address  | 10.0.15.4 | |
+| MASKA  | /24 (255.255.255.0) | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  | | |
-| MASKA  | | |
+| IP - address  | 10.0.15.6 | |
+| MASKA  | /24 (255.255.255.0 )| |
 
 Weryfikacja połączenia
 
