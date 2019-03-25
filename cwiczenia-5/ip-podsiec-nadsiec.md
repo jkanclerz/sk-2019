@@ -36,3 +36,14 @@ Zadanie
    * Rozszerz istniejącą konfigurację dzieląc istnijącą sieć dla ``PC2`` na 3 podsieci zgodnie z diagramem
    * Przetestuj połączenie pomiędzy wszystkimi elementami sieci ``PC1->PC2`` ``PC1->PC4``
    * Zapewnij permanentną konfigurację, dodając odpowiednie wpisy w plikach konfiguracji
+
+Zadanie do domu
+---------------
+
+1. Wykorzystując program dia oraz ikony CISCO
+  * Przygotuj diagram powyższej sieci uwzględniając urządzenia tj:
+    * ROUTER
+    * SWITCH
+    * PC
+  * Uzupełnij diagram o adresację sieci oraz poszczególnych urządzeń
+  
