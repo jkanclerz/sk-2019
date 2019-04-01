@@ -161,14 +161,3 @@ Zadanie
     * D – 500 użytkowników
     * E – 2 użytkowników.
     
-
-
-
-
-1. Wykorzystując program dia oraz ikony CISCO
-  * Przygotuj diagram powyższej sieci uwzględniając urządzenia tj:
-    * ROUTER
-    * SWITCH
-    * PC
-  * Uzupełnij diagram o adresację sieci oraz poszczególnych urządzeń
-  
