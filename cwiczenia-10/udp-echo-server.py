@@ -11,5 +11,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
         data, client_address = s.recvfrom(1024)
         if not data:
           break
-        sent = s.sendto(data, client_address)
+        print("recieved {}".format(data))
+        #sent = s.sendto(data, client_address)
 

@@ -8,5 +8,5 @@ PORT = 65433
 
 with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
     s.sendto(str.encode(sys.argv[1]), (HOST, PORT))
-    data = s.recv(1024)
-    print('Received', repr(data))
+    #data = s.recv(1024)
+    #print('Received', repr(data))
