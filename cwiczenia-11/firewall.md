@@ -37,6 +37,7 @@
 |   ``ACCEPT``    |                               |
 |   ``DROP``    |                              |
 |   ``REJECT``    |                             |
+|   ``LOG``    |                             |
 
 
 ### Użycie
