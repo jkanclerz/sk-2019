@@ -35,10 +35,9 @@
 |     |  przeznaczenie   | 
 | ------------- |:-------------| 
 |   ``ACCEPT``    |                               |
-|   ````    |                              |
-|   ``FORWARD``    |                             |
-|   ``PREROUTING``    |                          |
-|   ``POSTROUTING``    |                         |
+|   ``DROP``    |                              |
+|   ``REJECT``    |                             |
+
 
 ### Użycie
 
