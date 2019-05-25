@@ -1,4 +1,4 @@
-System operacyjny w środowisku sieciowym
+System operacyjny w środowisku sieciowym...
 =========================================
 
 Charakterystyka systemu operacyjnego
