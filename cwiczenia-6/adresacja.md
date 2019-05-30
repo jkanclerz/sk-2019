@@ -118,13 +118,13 @@ Mając dany adres hosta i maskę znajdź:
   ------------------------------
 | Parametr |  wartość   | 
 | --------- |:-------------| 
-| ``ip``    | 192.168.1.145| 
+| ``ip``    | 192.168.1.145 | 
 | ``maska``   | 255.255.255.128 | 
-| ``adres sieci``   | |
-| ``liczba hostów``   | |
-| ``host - min``   | | 
-| ``host - max``   | | 
-| ``broadcast``   | | 
+| ``adres sieci``   | 192.168.1.128 |
+| ``liczba hostów``   | 126 |
+| ``host - min``   | 192.168.1.129 | 
+| ``host - max``   | 192.168.1.254 | 
+| ``broadcast``   | 192.168.1.255 | 
  
 Zadanie
 ------------
