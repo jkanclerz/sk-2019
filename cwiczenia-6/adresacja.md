@@ -15,7 +15,7 @@ Adres rozgłoszeniowy
 -----------
 
 1. Na masce sieci w BIN robimy operacje NOT
-2. Konwercja maski do DEC
+2. Konwersja maski do DEC
 3. Dodanie do adresu sieci negacji maski w DEC
 
 albo
