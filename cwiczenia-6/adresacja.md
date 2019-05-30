@@ -7,17 +7,22 @@ Struktura adresu IP
 Adres sieci
 -----------
 
-1. 
-2.
-3.
+1. IP i MASKA sieci na BIN
+2. Operacja AND na obu
+3. Konwersja na DEC
 
 Adres rozgłoszeniowy
 -----------
 
-1. 
-2.
-3.
+1. Na masce sieci w BIN robimy operacje NOT
+2. Konwercja maski do DEC
+3. Dodanie do adresu sieci negacji maski w DEC
 
+albo
+
+1. Obliczenie adresu sieci
+2. Negacja maski sieci
+3. Binarna suma maski i adresu sieci
 
 Podział na równą ilość podsieci
 -------------------------------
@@ -28,6 +33,9 @@ Chcemy 7 -> 2^3 >= 7
 
 Maska -> 255.255.255.11100000 -> 255.255.255.224 -> /27
 
+Wyznaczenie ilości hostów:
+
+2^(liczba bitów adresu IP-skrócony zapis maski)-2
 
 Wprowadzenie
 ------------
