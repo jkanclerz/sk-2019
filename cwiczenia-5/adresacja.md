@@ -114,7 +114,7 @@ Mając dany adres hosta i maskę znajdź:
 | ``ip``    | 192.168.1.145| 
 | ``maska``   | 255.255.255.128 | 
 | ``adres sieci``   | 192.168.1.128 |
-| ``liczba hostów``   | |
+| ``liczba hostów``   | 65534 |
 | ``host - min``   | | 
 | ``host - max``   | | 
 | ``broadcast``   | | 
