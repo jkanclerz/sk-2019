@@ -28,8 +28,8 @@ ip
 |   ``addr``    |                                | infirmacje o adresacji i własnościach interfejsów |
 |               |   ``ip addr``                  | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3``  | informacja o konkretnym interfejsie               |
-|               |``ip addr add {ip} dev {nazwa}``|    dodaj ip (bez{})                               |
-|               |``ip addr del {ip} dev {nazwa}``|      usuń ip (bez{})                              |
+|               |``ip addr add {ip} dev {nazwa}``|    dodaj ip                                       |
+|               |``ip addr del {ip} dev {nazwa}``|      usuń ip                                      |
 |   ``link``    |                                |  |
 |               | ``ip link set enp0s3 down``    | wyłącz |
 |               | ``ip link set {nazwa} up``     | włącz |
@@ -48,7 +48,7 @@ ip
 
 **********************************
 ```
-statyczny konfig
+statyczny config
 
 nano /etc/network/interfaces
 
