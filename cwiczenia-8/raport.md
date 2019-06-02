@@ -1,3 +1,5 @@
+![sieć](sieć.png)
+
 # 1. Podział sieci
 
 a) maska sieci:
