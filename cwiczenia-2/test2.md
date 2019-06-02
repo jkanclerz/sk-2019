@@ -11,18 +11,23 @@ Wejściowe parametry sieci
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-|   PC 1 |  
+|   PC 1 |  debian | |
 | IP - address  | 10.0.2.15 | |
-| MASKA  | 255.255.255.0 lub /24 CIRD| |
+| MASKA  | /24 | |
 |   |  | |
-| PC 2  |  | |
-| IP - address  |10.0.2.4/24 | |
-| MASKA  | 255.255.255.0 | |
+| PC 2  | debian | |
+| IP - address  |10.0.2.4 | |
+| MASKA  | /24 | |
 
 Weryfikacja połączenia
+'''
+ping
+'''
 
 Polecenie
 ```
+ping 10.0.2.15
+ping 10.0.2.4
 ```
 
 Efekt
