@@ -19,11 +19,44 @@ b) podział sieci:
 ---------
 ### /etc/network/interfaces
 
-```auto enp0s8
+``auto enp0s8
 iface enp0s8 inet static
-  adress 172.22.128.1
+  address 172.22.128.1
   netmask 255.255.254.0
 atuo anp0s9
 iface enp0s9 inet static
-  adress 172.22.160.1
-  netmask 255.255.224.0```
+  address 172.22.160.1
+  netmask 255.255.224.0``
+  
+# 3.Konfiguracja PC1 i PC2
+---------
+## /etc/network/interfaces
+
+#### PC1:
+``iface enp0s3 inet static
+  address 172.22.128.2
+  netmask 255.255.254.0
+up ip route add default via 172.22.128.1 ///routing ``
+
+#### PC2:
+``iface enp0s3 inet static
+  address 172.22.160.2
+  netmask 255.255.224.0
+up ip route add default via 172.22.160.1 ///routing ``
+
+# 4.Forwardowanie pakietów (PC0):
+---------
+``echo 1 > /proc/sys/net/ipv4/ip_forward``
+
+Odkomentować linię ``net.ipv4.ip_forward=1`` w pliku ``/etc/sysctl.d/99-sysctl.conf``
+
+# 5.Reguła MASQUERADE na PC0:
+---------
+W terminalu wpisać:
+
+``iptables -t nat -A POSTROUTING -s 172.22.128.0/23 -o enp0s3 -j MASQUERADE
+iptables -t nat -A POSTROUTING -s 172.22.160.0/19 -o enp0s3 -j MASQUERADE``
+
+Oraz:
+
+``ipatables-save > /etc/iptables.up.rules``
