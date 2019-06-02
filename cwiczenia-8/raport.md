@@ -1,4 +1,4 @@
-#1. Podział sieci
+# 1. Podział sieci
 ---------
 a) maska sieci:
 
@@ -15,7 +15,7 @@ b) podział sieci:
     ``LAN1``: 172.22.128.0/23
     ``LAN2``: 172.22.160.0/19
 
-#2.Konfiguracja interfejsów PC0
+# 2. Konfiguracja interfejsów PC0
 ---------
 ### /etc/network/interfaces
 
@@ -28,7 +28,7 @@ iface enp0s9 inet static
   address 172.22.160.1
   netmask 255.255.224.0``
   
-# 3.Konfiguracja PC1 i PC2
+# 3. Konfiguracja PC1 i PC2
 ---------
 ## /etc/network/interfaces
 
@@ -44,13 +44,13 @@ up ip route add default via 172.22.128.1 ///routing ``
   netmask 255.255.224.0
 up ip route add default via 172.22.160.1 ///routing ``
 
-# 4.Forwardowanie pakietów (PC0):
+# 4. Forwardowanie pakietów (PC0):
 ---------
 ``echo 1 > /proc/sys/net/ipv4/ip_forward``
 
 Odkomentować linię ``net.ipv4.ip_forward=1`` w pliku ``/etc/sysctl.d/99-sysctl.conf``
 
-# 5.Reguła MASQUERADE na PC0:
+# 5. Reguła MASQUERADE na PC0:
 ---------
 W terminalu wpisać:
 
