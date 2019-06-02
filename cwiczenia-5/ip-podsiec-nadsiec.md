@@ -61,4 +61,4 @@ Zadanie do domu
     * PC
   * Uzupełnij diagram o adresację sieci oraz poszczególnych urządzeń
   
-  ![diagram](./diagram.svg)
+
