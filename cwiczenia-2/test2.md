@@ -88,9 +88,10 @@ Warto wiedzieć
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
-| UP -> Wyłączenie interfejsu sieciowego| | |
-| DOWN -> Włączenie interfejsu sieciowego| | |
-| Sprawdzenie obecnych parametrów | | |
-| lista wszystkich interfejsów | | |
-| Które interfejsy jakie porty słuchają | | |
+| Lokalizacja pliku z konfiguracją sieci| /etc/network/interfaces(Ubuntu/Debian)
+/etc/sysconfig/network(Red Hat/Fedora/CentOS) | |
+| UP -> Włączenie interfejsu sieciowego| if up | |
+| DOWN -> Wyłączenie interfejsu sieciowego| ifdown | |
+| Sprawdzenie obecnych parametrów | nmcli | |
+| lista wszystkich interfejsów | ip a | |
+| Które interfejsy jakie porty słuchają | netstat | |
