@@ -94,3 +94,28 @@ Warto wiedzieć
 | Sprawdzenie obecnych parametrów | nmcli | |
 | lista wszystkich interfejsów | ip a | |
 | Które interfejsy jakie porty słuchają | netstat | |
+
+Komendy:
+```
+ip a
+nmcli
+ifup enp0s3
+apt-get install git - instalacja gita (na debian)
+yum install git - instalacja gita (ns centos)
+su <- root
+ping
+iptables -F
+git copy https://github.com/jkanclerz/http-chat <- clone z gita, potem: cd http-chat -> cd server -> python httpchat.py
+
+su - > apt update -> apt install git git clone https://github.com/jkanclerz/http-chat cd /http-chat/server python httpchat.py
+```
+
+Pobranie wiadomości:
+```
+curl -X POST -d '{"text": "Hello World"}' http://{ip_address}:8888
+```
+
+Odebranie wiadomości:
+```
+curl -X POST -d '{"last_message_id":-1}' http://{ip_address}:8888/messages | python -m json.tool
+```
