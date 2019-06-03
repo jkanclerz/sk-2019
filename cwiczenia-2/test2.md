@@ -53,10 +53,12 @@ Weryfikacja połączenia
 
 Polecenie
 ```
+ping
 ```
 
 Efekt
 ```
+Brak odpowiedzi-nie działa
 ```
 
 Nowa statyczna konfiguracja 
