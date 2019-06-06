@@ -1,6 +1,6 @@
-Sieci komputerow - uek 2019
----------------------------
+# Sieci komputerow - Uniwersytet Ekonomiczny w Krakowie 2019
 
+## Informacje
 https://e-uczelnia.uek.krakow.pl/course/view.php?id=9172
 
 Załączony kurs zawiera zawiera referencyjne maszyny wirtualne, do wykorzystania podczas realizowanych zadań 
@@ -12,6 +12,8 @@ System operacyjny:
  * Windows
 
 Oraz referencyjną wersję kalkulatora IP z wykorzystaniem excel
+
+## Zagadnienia
 
 1. [System operacyjny w środowisku sieciowym](cwiczenia-1/system-operacyjny.md)
 2. [Ustawianie parametrów sieci](cwiczenia-2/network-properties.md)
