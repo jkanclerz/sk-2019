@@ -7,9 +7,9 @@ Załączony kurs zawiera zawiera referencyjne maszyny wirtualne, do wykorzystani
 
 System operacyjny:
 
-    * CeontOS
-    * Debina
-    * Windows
+ * CeontOS
+ * Debina
+ * Windows
 
 Oraz referencyjną wersję kalkulatora IP z wykorzystaniem excel
 
