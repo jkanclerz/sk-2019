@@ -6,6 +6,7 @@ https://e-uczelnia.uek.krakow.pl/course/view.php?id=9172
 Załączony kurs zawiera zawiera referencyjne maszyny wirtualne, do wykorzystania podczas realizowanych zadań 
 
 System operacyjny:
+
     * CeontOS
     * Debina
     * Windows
