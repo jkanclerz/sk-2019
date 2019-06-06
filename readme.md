@@ -5,9 +5,9 @@ https://e-uczelnia.uek.krakow.pl/course/view.php?id=9172
 
 Załączony kurs zawiera zawiera referencyjne maszyny wirtualne, do wykorzystania podczas realizowanych zadań
     System operacyjny:
-    * CeontOS
-    * Debina
-    * Windows
+    1. CeontOS
+    2. Debina
+    3. Windows
 
 Oraz referencyjną wersję kalkulatora IP z wykorzystaniem excel
 
