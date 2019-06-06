@@ -1,4 +1,4 @@
-# Sieci komputerow - Uniwersytet Ekonomiczny w Krakowie 2019
+# Sieci komputerowe - UEK 2019
 
 ## Informacje
 https://e-uczelnia.uek.krakow.pl/course/view.php?id=9172
