@@ -12,7 +12,7 @@
 ### Konfiguracja
 #### PC0
 *Przypisanie adresów i masek podsieci do interfejsów*
-*```ip addr add 172.22.160.1/19 dev enp0s8```
+* ```ip addr add 172.22.160.1/19 dev enp0s8```
 *```ip addr add 172.22.128.1/23 dev enp0s9```
 *Włączenie przekierowania pakietów i dodanie reguły masquerade*
 *```echo 1 > /proc/sys/net/ipv4/ip_forward```
