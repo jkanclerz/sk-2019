@@ -46,4 +46,4 @@ LAN2
 * ```ip route add default via 172.22.128.1 dev enp0s3```
 
 ### Diagram
-!(dia.png)
+![diagram](dia.png)
