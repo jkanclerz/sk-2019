@@ -31,9 +31,13 @@
 
 #### Routing
 w ```/etc/network/interfaces```
+
 pokolei w routerach:
+
 ```up ip rotue add default via 188.156.220.1```
+
 kolejne labolatoria komputerowe:
+
 ```up ip route add default via 10.0.9.62```
 
 ```up ip route add default via 10.0.13.62```
